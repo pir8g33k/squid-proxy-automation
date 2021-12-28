@@ -5,8 +5,8 @@ if [ `whoami` != root ]; then
 	exit 1
 fi
 
-/usr/bin/wget --no-check-certificate -O /usr/local/bin/sok-find-os https://raw.githubusercontent.com/pir8g33k/squid-proxy-automation/master/jea-find-os.sh > /dev/null 2>&1
-chmod 755 /usr/local/bin/sok-find-os
+/usr/bin/wget --no-check-certificate -O /usr/local/bin/jea-find-os https://raw.githubusercontent.com/pir8g33k/squid-proxy-automation/master/jea-find-os.sh > /dev/null 2>&1
+chmod 755 /usr/local/bin/jea-find-os
 
 /usr/bin/wget --no-check-certificate -O /usr/local/bin/squid-uninstall https://raw.githubusercontent.com/pir8g33k/squid-proxy-automation/master/squid-uninstall.sh > /dev/null 2>&1
 chmod 755 /usr/local/bin/squid-uninstall
